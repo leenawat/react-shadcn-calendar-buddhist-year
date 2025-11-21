@@ -111,6 +111,7 @@ export default function BuddhistCalendarDemo() {
                       setPickerDate(date)
                       setOpen(false)
                     }}
+                    defaultMonth={pickerDate}
                     captionLayout="dropdown"
                   />
                 </PopoverContent>
